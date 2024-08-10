@@ -186,6 +186,8 @@ a {
   text-align: center;
 }
 
+
+
 .properties-container {
   display: flex;
   justify-content: center;
@@ -196,6 +198,11 @@ a {
   padding-bottom: 4rem;
   padding-left: 65rem;
   padding-right: 2rem;
+}
+
+.poster {
+  width: 298px;
+  height: 200px;
 }
 
 .property-card {
@@ -222,8 +229,14 @@ a {
 }
 
 .property-bat {
+  
   display: flex;
   gap: 1rem;
+}
+
+.property-bat img {
+  width: 20px;
+  height: 20px;
 }
 
 /* horizontal scrolling for property section */
@@ -250,6 +263,7 @@ a {
 
 
 .location-price {
+  align-items: center;
   margin-top: 1rem;
   display: flex;
   gap: .2rem;
@@ -554,6 +568,7 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
 
   .property-lil-text {
     max-width: 180px;
