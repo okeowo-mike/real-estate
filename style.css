@@ -696,7 +696,7 @@ a {
     inset: 0 0 0 40%;
     background: hsl(0 0% 100% / 0.5);
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(111, 111, 111, 0.9);
     /* backdrop-filter: blur(6rem); */
     flex-direction: column;
     height: 60vh;
@@ -716,6 +716,7 @@ a {
 
   .primary-navigation li {
     margin-bottom: 2rem;
+    list-style: none;
   }
 
   .mobile-nav-toggle {
