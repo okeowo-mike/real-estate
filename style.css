@@ -31,7 +31,7 @@ a {
 }
 
 .line-space p {
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .nav2 {
@@ -574,9 +574,9 @@ padding-bottom: 10px;
 
   /* our properties section ////////////////////////////// */
   .property-img img {
-    max-width: 200px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* max-width: 200px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
   }
 
   .property-lil-text {
